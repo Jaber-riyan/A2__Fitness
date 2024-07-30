@@ -22,8 +22,7 @@ li {
 /* header section */
 header {
   width: 100%;
-  height: 715px;
-  border: 1px solid red;
+  border: 1px solid black;
   background: linear-gradient(
     180deg,
     rgb(17, 17, 17) 100%,
@@ -32,14 +31,12 @@ header {
 }
 .header-content {
   width: 80%;
-  border: 1px solid green;
   height: 90%;
   margin: 3% auto;
 }
 /* nav section  */
 nav {
   color: white;
-  border: 1px solid pink;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,27 +49,141 @@ nav {
   height: 2rem;
   justify-content: center;
   align-items: center;
-  padding: 0.1rem;
+  padding: 1rem 0.1rem;
 }
 .nav-options li > a {
   border-radius: 46px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  padding: 0.4rem 0.5rem;
+  font-size: 1.01rem;
+  font-weight: 400;
+  padding: 0.4rem 1rem;
 }
 .nav-options li > a:hover {
-    background: rgb(230, 83, 60);
+  background: rgb(230, 83, 60);
 }
 .nav-options li > a:active {
-    background: rgb(221, 107, 90);
+  background: rgb(221, 107, 90);
 }
 .logo h1 {
   color: rgb(230, 83, 60);
   font-size: 36px;
   font-weight: 800;
 }
-
 /* nav section end */
+
+/* header main section  */
+.banner-main-content {
+  height: 92%;
+  color: white;
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+.banner-main-text,
+.banner-main-photo {
+  width: 50%;
+}
+.banner-main-text h1 {
+  color: rgb(255, 255, 255);
+  font-size: 3.8rem;
+  font-weight: 900;
+  margin-bottom: 1.8rem;
+}
+.banner-main-text h1 span {
+  font-family: "Playwrite BE VLG", cursive;
+}
+.banner-main-text p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 1.8rem;
+}
+.common-btn {
+  padding: 1rem 2rem;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  border: none;
+  margin-right: 0.7rem;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+.download-app {
+  padding: 1rem 2rem;
+  border-radius: 42px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+.video-tutorial {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  width: 206px;
+  backdrop-filter: blur(5px);
+  background: rgba(48, 48, 48, 0.54);
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  position: absolute;
+  right: 22rem;
+  top: 25rem;
+}
+.video-tutorial-circle {
+  width: 40px;
+  height: 40px;
+  background: rgb(230, 83, 60);
+  border-radius: 50%;
+}
+.video-tutorial-text h1 {
+  color: rgb(250, 250, 249);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+  margin-bottom: 0.5rem;
+}
+.video-tutorial-text p {
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.free-workout-video {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  width: 206px;
+  backdrop-filter: blur(5px);
+  background: rgba(48, 48, 48, 0.54);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  position: absolute;
+  right: 2rem;
+  top: 7rem;
+  background: rgba(255, 255, 255, 0.1);
+}
+.free-workout-video h1 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+  margin-bottom: 0.4rem;
+}
+.free-workout-video p {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+.banner-main-photo {
+  position: relative;
+}
+/* header main section end */
 /* header section end */
 
 /* main section  */
