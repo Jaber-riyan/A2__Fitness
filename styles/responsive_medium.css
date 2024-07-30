@@ -1,0 +1,40 @@
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  /* header section start here  */
+  .header-content {
+    width: 95%;
+  }
+  .banner-main-content {
+    flex-direction: column;
+    gap: 6rem;
+    align-items: center;
+  }
+  .banner-main-text,
+  .banner-main-photo {
+    width: 90%;
+  }
+  nav {
+    margin-bottom: 4.5rem;
+    gap: 5rem;
+  }
+  .nav-ul {
+    width: fit-content;
+    gap: 0rem;
+  }
+  .banner-main-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner-main-photo img {
+    width: 80%;
+  }
+  .free-workout-video {
+    right: 1.3rem;
+    top: 5rem;
+  }
+  .video-tutorial {
+    right: 16rem;
+    top: 25rem;
+  }
+  /* header section end here  */
+}
