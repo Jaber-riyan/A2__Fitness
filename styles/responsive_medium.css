@@ -1,5 +1,8 @@
 @media screen and (min-width: 576px) and (max-width: 992px) {
   /* header section start here  */
+  header {
+    margin-bottom: 7rem;
+  }
   .header-content {
     width: 90%;
   }
@@ -39,7 +42,7 @@
   /* header section end here  */
 
   /* main section start here  */
-  /* .change-habits {
+  .change-habits {
     width: 95%;
   }
   .change-habits-photo {
@@ -47,6 +50,6 @@
   }
   .habits-photo {
     margin-bottom: 2.2rem;
-  } */
+  }
   /* main section end here  */
 }
