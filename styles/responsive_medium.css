@@ -60,5 +60,15 @@
     font-weight: 900;
     line-height: 120%;
   }
+  .training-experience-section {
+    width: 95%;
+  }
+  .training-photo-4 p {
+    left: 3rem;
+    top: 11rem;
+  }
+  .training-photo-5 p {
+    left: 2rem;
+  }
   /* main section end here  */
 }
