@@ -33,6 +33,7 @@ li {
 header {
   width: 100%;
   border: 1px solid black;
+  margin-bottom: 2rem;
 }
 .header-content {
   width: 80%;
@@ -198,6 +199,8 @@ nav {
   margin: 0 auto;
   color: white;
   text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
 }
 .change-habits-text h1 {
   font-size: 48px;

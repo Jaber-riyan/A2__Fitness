@@ -42,6 +42,14 @@
   /* header section end here  */
 
   /* main section start here  */
-  
+  .change-habits {
+    width: 95%;
+  }
+  .change-habits-photo {
+    grid-template-columns: 1fr;
+  }
+  .habits-photo {
+    margin-bottom: 2.1rem;
+  }
   /* main section end here  */
 }
