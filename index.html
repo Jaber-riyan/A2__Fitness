@@ -4,14 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fitness</title>
-    <link rel="shortcut icon" href="./images/favicon.avif" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./images/favicon.avif"
+      type="image/x-icon" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/responsive_medium.css" />
     <link rel="stylesheet" href="./styles/responsive_small.css" />
   </head>
   <body>
     <!-- header section start  -->
-    <header class="">
+    <header class="hide">
       <div class="header-content">
         <!-- navbar section start  -->
         <nav>
@@ -26,31 +29,39 @@
               <li><a class="a-white" href="">About</a></li>
             </ul>
           </div>
+          <i id="hamburger" class="fa-solid fa-bars"></i>
         </nav>
         <!-- navbar section end  -->
 
         <!-- banner main content start -->
-        <main class="banner-main-content">
-            <div class="banner-main-text">
-                <h1>Get body in <span>shape</span> & stay healthy</h1>
-                <p>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
-                <button class="common-btn"><a class="a-white" href="">Join Club Now</a></button>
-                <button class="download-app"><a class="a-white" href="">Download App</a></button>
+        <main class="banner-main-content hide">
+          <div class="banner-main-text">
+            <h1>Get body in <span>shape</span> & stay healthy</h1>
+            <p>
+              A huge selection of health and fitness content, healthy recipes
+              and transformation stories to help you get fit and stay fit!
+            </p>
+            <button class="common-btn">
+              <a class="a-white" href="">Join Club Now</a>
+            </button>
+            <button class="download-app">
+              <a class="a-white" href="">Download App</a>
+            </button>
+          </div>
+          <div class="banner-main-photo">
+            <img src="./images/Images 2.png" alt="" />
+            <div class="video-tutorial">
+              <div class="video-tutorial-circle"></div>
+              <div class="video-tutorial-text">
+                <h1>350+</h1>
+                <p>Video Tutorial</p>
+              </div>
             </div>
-            <div class="banner-main-photo">
-                <img src="./images/Images 2.png" alt="">
-                <div class="video-tutorial">
-                  <div class="video-tutorial-circle"></div>
-                  <div class="video-tutorial-text">
-                    <h1>350+</h1>
-                    <p>Video Tutorial</p>
-                  </div>
-                </div>
-                <div class="free-workout-video">
-                  <h1>500+</h1>
-                  <p>Free Workout Videos</p>
-                </div>
+            <div class="free-workout-video">
+              <h1>500+</h1>
+              <p>Free Workout Videos</p>
             </div>
+          </div>
         </main>
         <!-- banner main content end -->
       </div>
@@ -60,29 +71,32 @@
     <!-- main section start  -->
     <main class="">
       <!-- chnage habits section start -->
-      <section class="change-habits">
+      <section class="change-habits hide">
         <div class="change-habits-text">
           <h1>Change Your Habits</h1>
-          <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+          <p>
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
         </div>
         <div class="change-habits-photo">
           <div class="habits-photo">
-            <img src="./images/image 3.png" alt="">
+            <img src="./images/image 3.png" alt="" />
             <h3>Movement</h3>
-            <p>We believe fitness should be <br>accessible to everyone</p>
+            <p>We believe fitness should be <br />accessible to everyone</p>
           </div>
           <div class="habits-photo">
-            <img src="./images/image 2.png" alt="">
+            <img src="./images/image 2.png" alt="" />
             <h3>Time</h3>
-            <p>We believe fitness should be <br>accessible to everyone</p>
+            <p>We believe fitness should be <br />accessible to everyone</p>
           </div>
           <div class="habits-photo">
-            <img src="./images/image 4.png" alt="">
+            <img src="./images/image 4.png" alt="" />
             <h3>Practice</h3>
-            <p>We believe fitness should be <br>accessible to everyone</p>
+            <p>We believe fitness should be <br />accessible to everyone</p>
           </div>
           <div class="habits-photo">
-            <img src="./images/image 5.png" alt="">
+            <img src="./images/image 5.png" alt="" />
             <h3>Weight Loss</h3>
             <p>We believe fitness should be accessible to everyone</p>
           </div>
@@ -91,22 +105,68 @@
       <!-- chnage habits section end -->
 
       <!-- run extra miles section start  -->
-       <section class="run-extra-miles font-white">
-        <div class="run-extra-text">
-          <h1>Run an Extra <br>Mile Easily</h1>
-          <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
-          <button class="common-btn"><a class="a-white" href="">Join Now</a></button>
-        </div>
-        <div class="run-extra-photo">
-          <img src="./images/run2.jpg" alt="">
-        </div>
-       </section>
+      <div class="hide">
+        <section class="run-extra-miles font-white">
+          <div class="run-extra-text">
+            <h1>Run an Extra <br />Mile Easily</h1>
+            <p>
+              We believe fitness should be accessible to everyone, everywhere,
+              regardless of income or access to a gym. With hundreds of
+              professional workouts.
+            </p>
+            <button class="common-btn">
+              <a class="a-white" href="">Join Now</a>
+            </button>
+          </div>
+          <div class="run-extra-photo">
+            <img src="./images/run2.jpg" alt="" />
+          </div>
+        </section>
+      </div>
       <!-- run extra miles section end  -->
+
+      <!-- training experience section start  -->
+      <section class="training-experience-section font-white">
+        <div class="training-experience-text">
+          <h1>Trainings and Exercises</h1>
+          <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+        </div>
+        <div class="training-experience-photo">
+          <div class="training-photo-1">
+            <!-- <img src="./images/exercise1.jpg" alt=""> -->
+            <p>Practice One</p>
+          </div>
+          <div class="training-photo-2">
+            <p>Practice Two</p>
+          </div>
+          <div class="training-photo-3">
+            <!-- <img src="./images/exercise3.png" alt=""> -->
+            <p>Practice Three</p>
+          </div>
+          <div class="training-photo-4">
+            <!-- <img src="./images/exercise4.png" alt=""> -->
+            <p>Practice Four</p>
+          </div>
+          <div class="training-photo-5">
+            <!-- <img src="./images/exercise5.jpg" alt=""> -->
+            <p>Practice Five</p>
+          </div>
+          <div class="training-photo-6">
+            <!-- <img style="display: none;" src="./images/exercise6.jpg" alt=""> -->
+            <p>Practice Six</p>
+          </div>
+        </div>
+      </section>
+      <!-- training experience section end  -->
     </main>
     <!-- main section end  -->
 
     <!-- footer section start  -->
     <footer class=""></footer>
     <!-- footer section end  -->
+
+    <script
+      src="https://kit.fontawesome.com/b8034c1299.js"
+      crossorigin="anonymous"></script>
   </body>
 </html>

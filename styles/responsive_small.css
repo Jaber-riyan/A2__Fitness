@@ -1,5 +1,8 @@
 @media screen and (max-width: 576px) {
   /* header section start here  */
+  #hamburger {
+    display: block;
+  }
   .nav-options {
     display: none;
   }
