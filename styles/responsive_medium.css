@@ -1,7 +1,7 @@
 @media screen and (min-width: 576px) and (max-width: 992px) {
   /* header section start here  */
   .header-content {
-    width: 95%;
+    width: 90%;
   }
   .banner-main-content {
     flex-direction: column;
@@ -10,7 +10,7 @@
   }
   .banner-main-text,
   .banner-main-photo {
-    width: 90%;
+    width: 95%;
   }
   nav {
     margin-bottom: 4.5rem;
@@ -37,4 +37,16 @@
     top: 25rem;
   }
   /* header section end here  */
+
+  /* main section start here  */
+  /* .change-habits {
+    width: 95%;
+  }
+  .change-habits-photo {
+    grid-template-columns: 1fr 1fr;
+  }
+  .habits-photo {
+    margin-bottom: 2.2rem;
+  } */
+  /* main section end here  */
 }
