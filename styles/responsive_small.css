@@ -63,5 +63,22 @@
   .run-extra-miles div {
     width: 100%;
   }
+  .training-experience-section {
+    width: 95%;
+  }
+  .training-photo-1,
+  .training-photo-2 {
+    grid-column: span 6;
+  }
+  .training-photo-4 {
+    grid-column: span 5;
+  }
+  .training-photo-5 {
+    grid-column: span 7;
+  }
+  .training-photo-3,
+  .training-photo-6 {
+    display: none;
+  }
   /* main section end here  */
 }
