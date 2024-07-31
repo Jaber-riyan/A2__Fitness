@@ -416,6 +416,124 @@ nav {
   line-height: 17px;
 }
 
+.bmi-calculator-section {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 7rem;
+  background: rgb(34, 34, 34);
+  padding: 3rem 0rem;
+}
+.bmi-main-section {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+.bmi-chart {
+  text-align: left;
+}
+.bmi-chart td,
+th {
+  padding: 1.2rem;
+}
+.bmi-chart th {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+}
+.bmi-chart td {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 120%;
+}
+.bmi-chart h1 {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 3.7rem;
+}
+.bmi-calculator h1 {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 1rem;
+}
+.bmi-calculator p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-bottom: 2rem;
+}
+.bmi-calculator-fields {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+#input-1 {
+  grid-column: span 6;
+}
+#input-2 {
+  grid-column: span 6;
+}
+#input-3 {
+  grid-column: span 6;
+}
+#input-4 {
+  grid-column: span 6;
+  border-right: 20px solid transparent;
+}
+#input-5 {
+  grid-column: span 12;
+  padding: 0.7rem;
+  border-right: 20px solid transparent;
+}
+.bmi-calculator-fields input {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  outline: none;
+}
+.bmi-calculator-fields select {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+}
+.bmi-outer-text {
+  width: 40%;
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 5.5rem;
+}
+.bmi-outer-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 1rem;
+}
+.bmi-outer-text p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
 /* main section end */
 
 /* footer section  */
