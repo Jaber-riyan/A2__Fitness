@@ -51,5 +51,14 @@
   .habits-photo {
     margin-bottom: 2.2rem;
   }
+  .run-extra-miles {
+    width: 95%;
+    padding: 1rem;
+  }
+  .run-extra-text h1 {
+    font-size: 1.9rem;
+    font-weight: 900;
+    line-height: 120%;
+  }
   /* main section end here  */
 }

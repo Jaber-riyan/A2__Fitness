@@ -243,17 +243,19 @@ nav {
 }
 .run-extra-miles {
   width: 80%;
-  border: 1px solid red;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
   padding: 2rem 3rem;
   border-radius: 18px;
   background: rgb(34, 34, 34);
+  margin-bottom: 5rem;
 }
 .run-extra-photo img {
   width: 100%;
-  height: 100%;
+  height: 90%;
   border-radius: 18px;
 }
 .run-extra-text,
