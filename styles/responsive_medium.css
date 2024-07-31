@@ -62,6 +62,7 @@
   }
   .training-experience-section {
     width: 95%;
+    margin-bottom: 10rem;
   }
   .training-photo-4 p {
     left: 3rem;
@@ -69,6 +70,13 @@
   }
   .training-photo-5 p {
     left: 2rem;
+  }
+  .bmi-main-section {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  .bmi-outer-text {
+    width: 95%;
   }
   /* main section end here  */
 }
