@@ -89,8 +89,6 @@
     width: 100%;
   }
 
-
-
   .our-team {
     width: 90%;
   }
@@ -102,16 +100,38 @@
     font-weight: 900;
     line-height: 120%;
   }
-  .trainer-photo-1, .trainer-photo-4 {
+  .trainer-photo-1,
+  .trainer-photo-4 {
     display: none;
   }
-  .trainer-photo-2,.trainer-photo-3,.trainer-photo-5,.trainer-photo-6 {
+  .trainer-photo-2,
+  .trainer-photo-3,
+  .trainer-photo-5,
+  .trainer-photo-6 {
     margin-left: 6rem;
   }
   .team-photo-name {
     grid-template-columns: 1fr;
     align-items: center;
     justify-content: center;
+  }
+  .footer-content {
+    width: 95%;
+    flex-direction: column;
+  }
+  .first-column,
+  .second-column {
+    width: 100%;
+  }
+  .second-column {
+    margin-right: 23rem;
+    flex-direction: column;
+  }
+  footer {
+    height: 63rem;
+  }
+  .footer-contents #small-bar {
+    width: 95%;
   }
   /* main section end here  */
 }
