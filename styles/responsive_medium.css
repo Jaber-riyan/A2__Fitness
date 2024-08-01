@@ -97,11 +97,38 @@
   .team-photo-name {
     gap: 1.5rem;
   }
-  .trainer-photo-1 p span,.trainer-photo-2 p span,.trainer-photo-3 p span,.trainer-photo-4 p span,.trainer-photo-5 p span,.trainer-photo-6 p span{
+  .trainer-photo-1 p span,
+  .trainer-photo-2 p span,
+  .trainer-photo-3 p span,
+  .trainer-photo-4 p span,
+  .trainer-photo-5 p span,
+  .trainer-photo-6 p span {
     font-size: 15px;
   }
-  .trainer-photo-1 p,.trainer-photo-2 p,.trainer-photo-3 p,.trainer-photo-4 p,.trainer-photo-5 p,.trainer-photo-6 p{
+  .trainer-photo-1 p,
+  .trainer-photo-2 p,
+  .trainer-photo-3 p,
+  .trainer-photo-4 p,
+  .trainer-photo-5 p,
+  .trainer-photo-6 p {
     left: 1rem;
+  }
+  .footer-content {
+    width: 95%;
+    flex-direction: column;
+  }
+  .first-column,
+  .second-column {
+    width: 100%;
+  }
+  .second-column {
+    margin-right: 5.9rem;
+  }
+  footer {
+    height: 45rem;
+  }
+  .footer-contents #small-bar {
+    width: 95%;
   }
   /* main section end here  */
 }
