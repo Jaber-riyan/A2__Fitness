@@ -534,6 +534,97 @@ th {
   line-height: 24px;
   letter-spacing: 0.3px;
 }
+
+.our-team {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5.5rem;
+}
+.team-text {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.team-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 1rem;
+}
+.team-text p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.team-photo-name {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.trainer-photo-1 ,
+.trainer-photo-2 ,
+.trainer-photo-3 ,
+.trainer-photo-4,
+.trainer-photo-5 ,
+.trainer-photo-6  {
+  width: 20.625rem;
+  height: 17rem;
+  border-radius: 18px;
+  background: rgba(0, 0, 0,0.3);
+  background-blend-mode: overlay;
+}
+.trainer-photo-1 {
+  background-image: url("../images/trainer1.png");
+  background-size: cover;
+}
+.trainer-photo-2 {
+  background-image: url("../images/trainer2.png");
+  background-size: cover;
+}
+.trainer-photo-3 {
+  background-image: url("../images/trainer3.png");
+  background-size: cover;
+  background-position: center;
+}
+.trainer-photo-4 {
+  background-image: url("../images/trainer4.png");
+  background-size: cover;
+  background-position: center;
+}
+.trainer-photo-4 {
+  background-image: url("../images/trainer4.png");
+  background-size: cover;
+  background-position: center;
+}
+.trainer-photo-5 {
+  background-image: url("../images/trainer5.png");
+  background-size: cover;
+  background-position: center;
+}
+.trainer-photo-6 {
+  background-image: url("../images/trainer6.png");
+  background-size: cover;
+  background-position: center;
+}
+.trainer-photo-1 p,.trainer-photo-2 p,.trainer-photo-3 p,.trainer-photo-4 p,.trainer-photo-5 p,.trainer-photo-6 p{
+  position: relative;
+  top: 13rem;
+  left: 2rem;
+}
+.trainer-photo-1 p span,.trainer-photo-2 p span,.trainer-photo-3 p span,.trainer-photo-4 p span,.trainer-photo-5 p span,.trainer-photo-6 p span{
+  font-size: 20px;
+  font-weight: 900;
+}
+.trainer-photo-1 p small, .trainer-photo-2 p small,.trainer-photo-3 p small,.trainer-photo-4 p small,.trainer-photo-5 p small,.trainer-photo-6 p small{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
 /* main section end */
 
 /* footer section  */

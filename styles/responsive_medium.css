@@ -78,5 +78,30 @@
   .bmi-outer-text {
     width: 95%;
   }
+  .our-team {
+    width: 95%;
+  }
+  .team-text {
+    width: 90%;
+  }
+  .trainer-photo-1,
+  .trainer-photo-2,
+  .trainer-photo-3,
+  .trainer-photo-4,
+  .trainer-photo-5,
+  .trainer-photo-6 {
+    width: 160px;
+    height: 280px;
+    background-position: center;
+  }
+  .team-photo-name {
+    gap: 1.5rem;
+  }
+  .trainer-photo-1 p span,.trainer-photo-2 p span,.trainer-photo-3 p span,.trainer-photo-4 p span,.trainer-photo-5 p span,.trainer-photo-6 p span{
+    font-size: 15px;
+  }
+  .trainer-photo-1 p,.trainer-photo-2 p,.trainer-photo-3 p,.trainer-photo-4 p,.trainer-photo-5 p,.trainer-photo-6 p{
+    left: 1rem;
+  }
   /* main section end here  */
 }
