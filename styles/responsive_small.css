@@ -86,7 +86,32 @@
     gap: 4rem;
   }
   .bmi-outer-text {
-    width: 95%;
+    width: 100%;
+  }
+
+
+
+  .our-team {
+    width: 90%;
+  }
+  .team-text {
+    width: 80%;
+  }
+  .team-text h1 {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 120%;
+  }
+  .trainer-photo-1, .trainer-photo-4 {
+    display: none;
+  }
+  .trainer-photo-2,.trainer-photo-3,.trainer-photo-5,.trainer-photo-6 {
+    margin-left: 6rem;
+  }
+  .team-photo-name {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
   }
   /* main section end here  */
 }
