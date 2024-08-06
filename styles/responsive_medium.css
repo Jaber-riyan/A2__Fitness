@@ -74,6 +74,7 @@
   .bmi-main-section {
     grid-template-columns: 1fr;
     gap: 4rem;
+    width: 95%;
   }
   .bmi-outer-text {
     width: 95%;
@@ -126,6 +127,7 @@
   }
   footer {
     height: 45rem;
+    background: none;
   }
   .footer-contents #small-bar {
     width: 95%;

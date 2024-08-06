@@ -34,6 +34,12 @@
   .banner-main-photo img {
     width: 80%;
   }
+  #play-btn {
+    display: block;
+    left: 4rem;
+    top: 20.67rem;
+    font-size: 1.2rem;
+  }
   .free-workout-video {
     right: 1.3rem;
     top: 4rem;
@@ -84,9 +90,10 @@
   .bmi-main-section {
     grid-template-columns: 1fr;
     gap: 4rem;
+    width: 95%;
   }
   .bmi-outer-text {
-    width: 100%;
+    width: 95%;
   }
 
   .our-team {
@@ -129,6 +136,7 @@
   }
   footer {
     height: 63rem;
+    background: none;
   }
   .footer-contents #small-bar {
     width: 95%;

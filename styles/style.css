@@ -29,6 +29,11 @@ li {
 #hamburger {
   display: none;
 }
+::selection {
+  background: yellowgreen;
+  color: black;
+  font-weight: bolder;
+}
 /* shared items end */
 
 /* header section */
@@ -134,6 +139,10 @@ nav {
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
+}
+#play-btn {
+  position: absolute;
+  display: none;
 }
 .video-tutorial {
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -309,6 +318,9 @@ nav {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(10, 1fr);
+}
+.training-experience-photo p {
+  display: inline;
 }
 
 .training-photo-1 {
