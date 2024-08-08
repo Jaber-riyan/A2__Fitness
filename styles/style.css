@@ -656,6 +656,10 @@ th {
   font-size: 14px;
   font-weight: 400;
 }
+
+.our-gym-center {
+  background-color: rgb(37, 37, 37);
+}
 /* main section end */
 
 /* footer section  */
@@ -708,6 +712,7 @@ footer {
   font-size: 70px;
   font-weight: 800;
   line-height: 120%;
+  margin-bottom: 2rem;
 }
 .first-column p {
   color: rgba(255, 255, 255, 0.5);
